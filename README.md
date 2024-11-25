@@ -1,44 +1,32 @@
-# Guia
+# Safe Trip - Protótipo
 
-Este guia contém uma lista de snippets úteis para agilizar o desenvolvimento em React Native, além de comandos essenciais para diagnosticar e corrigir problemas no Expo.
+## Descrição do Projeto
 
----
+O Safe Trip é um aplicativo desenvolvido para proporcionar maior segurança em viagens, oferecendo funcionalidades como rotas seguras, alertas de risco em tempo real e paradas confiáveis. Este protótipo foi construído utilizando React Native e atualmente implementa apenas a funcionalidade de planejamento de viagens, permitindo que o usuário insira os pontos de origem e destino e visualize a rota.
 
-## Lista de Snippets Disponíveis
+⚠ Nota: Este protótipo ainda está em desenvolvimento. Funcionalidades adicionais, como relatórios de incidentes e notificações de segurança, serão implementadas em futuras atualizações.
 
-Esses snippets ajudam a criar componentes e configurar estilos rapidamente. Para usar o snippet, basta digitar o código correspondente e pressionar a tecla TAB (⇥).
+## Funcionalidades Atuais
 
-| Snippet  | Conteúdo                                                     |
-| -------- | ------------------------------------------------------------ |
-| `rnbc`   | Cria um novo componente básico em React Native               |
-| `rnso`   | Cria um novo componente com Stylesheet em React Native       |
-| `rnsc`   | Cria um novo componente com Styled Component em React Native |
-| `rnscs`  | Cria um novo arquivo de Styled Component                     |
-| `rnsctc` | Caminho para acessar as propriedades de cor no tema          |
-| `rnsctf` | Caminho para acessar as propriedades de fontes no tema       |
-| `nbc`    | Cria um componente do Native Base                            |
+- Roteiro de viagens: Locais de viagens para turista. (Feito antes de concluir nossa ideia).
+- Interface Intuitiva: Design simples para facilitar o uso durante a fase inicial do desenvolvimento.
 
-Esses atalhos tornam o desenvolvimento em React Native mais eficiente e ajudam a manter um padrão no código.
+## Tecnologias Utilizadas
 
----
+React Native: Framework para desenvolvimento mobile.
+Expo: Para simplificar a execução e testes.
+React Navigation: Navegação entre telas do aplicativo.
 
-## Comandos de Diagnóstico e Correção no Expo
+# Instalação e Execução
 
-Esses comandos ajudam a identificar e corrigir problemas rapidamente ao usar o Expo.
+- Clone este repositório
+  `git clone <url-do-repositorio>`
+  `cd safe-trip`
 
-### Passo a Passo
+- Instale as dependências:
+  `npm install`
 
-1. **Diagnóstico Inicial**  
-   Para verificar se há problemas na configuração do projeto Expo, utilize:
+## Links Importantes
 
-   ```bash
-   npx expo-doctor
-
-   ```
-
-2. **Correção de Dependências**
-   Caso o diagnóstico apresente algum problema, corrija as dependências com:
-   ```bash
-   npx expo install --check
-   ```
-   Esses comandos são úteis para garantir que todas as dependências estejam corretamente instaladas e configuradas no projeto Expo.
+- Documentação do Projeto: [Link para a Documentação](https://docs.google.com/document/d/11S1cgIt2xfIIOQL1lvuPWxry-72M-3NAuMtV3yptwFI/edit?usp=sharing)
+- Protótipo no Figma: [Link para o Figma](https://www.figma.com/design/ZGleSMfql4rfozDkyLpQ5A/projeto?node-id=34-3&m=dev&t=SnYz5WttH9cNk7Oh-1)
